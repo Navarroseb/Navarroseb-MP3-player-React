@@ -5,4 +5,4 @@ import "../styles/index.css";
 import App from "./component/app";
 
 //render your react application
-ReactDOM.render(<App />, document.querySelector("#app"));
+ReactDOM.render(<App />, document.getElementById("root"));
