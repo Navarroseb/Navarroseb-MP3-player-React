@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
-import Pcontrols from "./controls";
-import Pdetails from "./details";
+import Pcontrols from "../component/controls";
+import Pdetails from "../component/details";
 
 function Mplayer(props) {
 	const audioEl = useRef(null);

@@ -1,34 +1,26 @@
 import React, { useState, useEffect } from "react";
-import Mplayer from "./player";
+import Mplayer from "../component/player";
 
 function App() {
 	const [songs, setSongs] = useState([
 		{
-			title: "Home",
+			title: "World 1",
 			artist: "Mario Bros",
-			img_src:
-				"https://pressover.news/wp-content/uploads/2021/09/71RuXB-P8lL._AC_SL1333_-1024x768.jpg",
+			img_src: "https://media.giphy.com/media/KqqLx9TrusX0Q/giphy.gif",
 			src: "https://assets.breatheco.de/apis/sound/files/mario/songs/overworld.mp3",
 		},
 		{
 			title: "Castle",
 			artist: "Mario Bros",
 			img_src:
-				"https://3.bp.blogspot.com/-axsHg_tnCf0/Xnye3qg-pvI/AAAAAAAANpk/6hHNNoiiuqo0BCkiuZ7rKV83Yqu5O4XHgCLcBGAsYHQ/s1600/Super%2BMario%2BAll-Stars%2B%2528Super%2BMario%2BBros%2B3%2529%2B-%2BFinal%2BBoss%2BBowser.png",
+				"https://media.giphy.com/media/2t9jvx7uAs7ilTpLfK/giphy.gif",
 			src: "https://assets.breatheco.de/apis/sound/files/mario/songs/castle.mp3",
 		},
 		{
-			title: "Stage 2",
+			title: "Water",
 			artist: "Mario Bros",
 			img_src:
-				"https://i.blogs.es/2ed8d3/super-mario-bros-2/1366_2000.jpeg",
-			src: "https://assets.breatheco.de/apis/sound/files/mario/songs/stage2.mp3",
-		},
-		{
-			title: "Under Water",
-			artist: "Mario Bros",
-			img_src:
-				"https://i.blogs.es/89f065/130823-anatomyofmario-1801/450_1000.gif",
+				"https://media.giphy.com/media/4HgDCMosFYHjLJ6oum/giphy.gif",
 			src: "https://assets.breatheco.de/apis/sound/files/mario/songs/underwater.mp3",
 		},
 	]);
