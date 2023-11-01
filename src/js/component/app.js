@@ -23,6 +23,14 @@ function App() {
 				"https://media.giphy.com/media/4HgDCMosFYHjLJ6oum/giphy.gif",
 			src: "https://assets.breatheco.de/apis/sound/files/mario/songs/underwater.mp3",
 		},
+		{
+			title: "Mario Star",
+			artist: "Mario Bros",
+			img_src: "https://media.giphy.com/media/lYiQWU9xMJrBsb2RHX/giphy.gif",
+			url: "files/mario/songs/hurry-starman.mp3"
+		},
+
+
 	]);
 
 	const [currentSongIndex, setCurrentSongIndex] = useState(0);
